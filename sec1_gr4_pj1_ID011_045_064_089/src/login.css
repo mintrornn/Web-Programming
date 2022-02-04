@@ -1,0 +1,41 @@
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9%;
+    height: 100%;
+}
+
+.box{
+    height: 15%;
+    border: 1px solid black;
+    border-radius: 10px; 
+    background-color:#F5F5F5;  
+    text-align: center;
+    padding: 50px;
+    box-shadow: 2px 2px 2px #e2d8d7;
+}
+
+#uname, #password {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+#login {
+    width: 100%;
+    background-color: #cb8e8b;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    outline: none;
+}
